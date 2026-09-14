@@ -1,0 +1,15 @@
+{
+  "name": "cardapio-eliane-doces",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cardápio estático com pedido pelo WhatsApp",
+  "scripts": {
+    "test": "node --test tests/order-core.test.cjs",
+    "test:browser": "playwright test",
+    "test:all": "npm test && npm run test:browser"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@axe-core/playwright": "^4.11.0"
+  }
+}
